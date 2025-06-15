@@ -16,6 +16,10 @@ h1 {
     margin: 0;
 }
 
+h3 {
+    background-color: #e3e3e3;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -27,12 +31,41 @@ header {
     top: 0;
 }
 
+.blog h2 {
+    position: relative;
+}
+
 #blog {
-    border-top: dotted #e3e3e3;
+    border-top: 2px dotted #e3e3e3;
     display: flex;
     gap: 50px;
 }
 
-.blog-post {
-    border-bottom: dotted #e3e3e3;
+#blog img{
+    background-size: cover;
+    background-position: bottom;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20px;
 }
+
+.blog-post {
+    border-bottom: 2px dotted #e3e3e3;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blog-post:nth-of-type(1){
+    flex: 500px;
+}
+
+.blog-post:nth-of-type(2){
+    flex: 500px;
+}
+
+.blog-post table {
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
