@@ -12,12 +12,21 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0;
+    padding: 8px;
+}
+
+h2 {
+    background-color: #b5d3a8;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 h3 {
     background-color: #e3e3e3;
+    padding: 5px;
 }
 
 p {
@@ -34,6 +43,7 @@ header {
 .blog h2 {
     position: relative;
 }
+
 
 #blog {
     border-top: 2px dotted #e3e3e3;
@@ -83,4 +93,28 @@ button {
     background-color: #b5d3a8;
     color: white;
     font-size: small;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+main p {
+    flex: 500px;
+}
+
+.author a {
+    color: #b5d3a8;
+}
+
+time {
+    background-color: #b5d3a8;
+    color: white;
+    font-style: italic;
+    font-size: small;
+    padding: 1px;
 }
