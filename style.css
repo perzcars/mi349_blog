@@ -69,3 +69,18 @@ header {
     margin-bottom: 25px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+  border: 1px solid #b5d3a8;
+}
+
+button {
+    background-color: #b5d3a8;
+    color: white;
+    font-size: small;
+}
